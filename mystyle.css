@@ -1,1 +1,8 @@
-.box td{outline:1px solid;text-align:center;}
+.box {
+  background-color: #DA424D;
+  width: 500px;
+  height: 300px;
+  /*文字垂直置中:其父層用display:table*/
+  
+  display: table;
+}
